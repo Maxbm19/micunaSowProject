@@ -69,13 +69,13 @@ def probabilities():
 
     # define date for call the API
 
-    # date_to_extract = (date.today() - timedelta(days=3)).strftime("%Y-%m-%d")
+    date_to_extract = (date.today() - timedelta(days=3)).strftime("%Y-%m-%d")
 
-    # date_to_backward = (date.today() - timedelta(days=11)).strftime("%Y-%m-%d")
+    date_to_backward = (date.today() - timedelta(days=11)).strftime("%Y-%m-%d")
 
-    date_to_extract = (date.today() - timedelta(days=3+14)).strftime("%Y-%m-%d")
+    # date_to_extract = (date.today() - timedelta(days=3+14)).strftime("%Y-%m-%d")
 
-    date_to_backward = (date.today() - timedelta(days=11+14)).strftime("%Y-%m-%d")
+    # date_to_backward = (date.today() - timedelta(days=11+14)).strftime("%Y-%m-%d")
 
     print(f'extraction date: {date_to_extract}')
 
@@ -136,9 +136,9 @@ def probabilities():
 
     url = "https://power.larc.nasa.gov/api/temporal/daily/point"
 
-    # date_to_extract_NASA = (date.today() - timedelta(days=3)).strftime("%Y%m%d")
+    date_to_extract_NASA = (date.today() - timedelta(days=3)).strftime("%Y%m%d")
 
-    date_to_extract_NASA = (date.today() - timedelta(days=3+14)).strftime("%Y%m%d")
+    # date_to_extract_NASA = (date.today() - timedelta(days=3+14)).strftime("%Y%m%d")
 
     # Definir los parámetros para la solicitud, incluyendo todos los mencionados
     params = {
