@@ -1,4 +1,4 @@
-Se tiene codigo relacionado al entrenamiento de un modelo de Machine learning supervisado para predecir si el agricultor debe o no sembrar un producto para tener una buena produccion.
+Se tiene codigo relacionado al entrenamiento de un modelo de Machine learning supervisado, XG Boost que consiste en un ensamble de árboles de decisión, para predecir si el agricultor debe o no sembrar un producto para tener una buena produccion.
 
 Para ello, una vez desarrollado el modelo se lo puso en produccion con Flask como backend para hacer inferencia. La cual se conecta con el frontend:
 
